@@ -50,8 +50,19 @@ button:active {
 
 button:disabled {
   cursor: default;
-  filter: brightness(30%);
+  filter:
+   brightness(30%);
 }
+
+.text-container{
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
 
 
 /* Media Query: Tablet or Smaller*/
